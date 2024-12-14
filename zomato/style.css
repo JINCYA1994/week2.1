@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 450px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container to hold the boxes */
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.box {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    background-color:white;
+    color:black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+  border: 1px solid  #ccc;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.popular{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+   
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #ff1744;
+    border: none;
+}
+
+
+.popular1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+  .section3{
+    width:80%;
+    height: 60px;
+  }
+  
